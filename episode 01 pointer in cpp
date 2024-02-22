@@ -1,0 +1,54 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+
+  // char name[]="sherTumbano";
+  // char *cptr = &name[1];
+  // // cout<<cptr<<endl;
+  // // cout<<*cptr<<endl;
+
+  // cout<<"printing the answer:---->>>" <<endl;
+  // cout<<name<<endl;
+  // cout<<&name[1]<<endl;
+  // cout<<&name<<endl;
+  // cout<<*(name+3)<<endl;
+  // cout<<cptr<<endl;
+  // cout<<&cptr<<endl;
+  // cout<<*(cptr+3)<<endl;
+  // cout<<cptr+2<<endl;
+  // cout<<*cptr<<endl;
+  // cout<<"printing the value : "<<cptr+10<<endl;
+
+
+  // char ch = 'k';
+  // char* p = &ch;
+  // cout<<p<<endl;
+
+  // cout<<*p<<endl;
+
+
+  // char name[10]="suraj";
+  // cout<<name<<endl;
+
+  // char* c = "suraj";
+  // cout<<c<<endl;
+
+
+  int arr[5]={1,2,3,4,5};
+  int *a=arr;
+
+  cout<<a<<endl;
+  cout<<*a<<endl;
+
+
+
+
+
+
+
+
+
+  return 0;
+}
