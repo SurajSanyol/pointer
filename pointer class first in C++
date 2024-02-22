@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  // cout << "Hello world!" << end;
+
+  int arr[3]={2,3,4};
+  int* p = arr;
+  cout<<p<<endl;
+  cout<<*p<<endl;
+
+  cout<<"now the printing the  char array"<<endl;
+
+  char ch[]="suraj sanyal";
+  char* c = ch;
+  
+  cout<<ch<<endl;
+  cout<<c<<endl;
+  cout<<*c<<endl;
+
+  return 0;
+}
